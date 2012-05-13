@@ -24,4 +24,9 @@ Installation instructions:
 	</li>
 </ol>
 
-NOTE: After each update of Kohana core files you will need to repeat step 4. I had to add 4th step because there are some classes with the same name in phpbb and Kohana. In CodeIgniter classes that are not part of CI are called by $this->CI->class->function() but in Kohana there's no such thing and that is causing errors. After doing that you can still use Session class by calling MySiteSession::instance(). I've found this solution here: <a href="http://stackoverflow.com/questions/8788298/kohana-3-2-phpbb-library-working-with-abstract-methods">http://stackoverflow.com/questions/8788298/kohana-3-2-phpbb-library-working-with-abstract-methods</a>
+<strong>NOTE</strong>: After each update of Kohana core files you will need to repeat step 4.
+I had to add 4th step because there are some classes with the same name in phpbb and Kohana.
+In CodeIgniter classes that are not part of CI are called by $this->CI->class->function()
+but in Kohana there's no such thing and that is causing errors.
+After doing that you can still use Session class by calling MySiteSession::instance().
+I've found this solution here: <a href="http://stackoverflow.com/questions/8788298/kohana-3-2-phpbb-library-working-with-abstract-methods">http://stackoverflow.com/questions/8788298/kohana-3-2-phpbb-library-working-with-abstract-methods</a>
