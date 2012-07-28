@@ -1,7 +1,7 @@
 phpBB3-library-for-Kohana-Framework
 ===================================
 This is a rewritten library from CodeIgniter. 
-Original author of CodeIgniter phpBB library is Tomaž Muraus (<a href="http://www.tomaz-muraus.info">http://www.tomaz-muraus.info</a>). It can be found at <a href="http://codeigniter.com/wiki/phpBB3_library">http://codeigniter.com/wiki/phpBB3_library</a>.
+Original author of CodeIgniter phpBB library is Tomaž Muraus (<a href="http://www.tomaz-muraus.info">http://www.tomaz-muraus.info</a>). It can be found at <a href="http://github.com/EllisLab/CodeIgniter/wiki/phpBB3-library">http://github.com/EllisLab/CodeIgniter/wiki/phpBB3-library</a>.
 
 Tested using Kohana 3.2.
 
